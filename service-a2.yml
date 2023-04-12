@@ -1,2 +1,10 @@
 server:
   port: 8085
+spring:
+  cloud:
+    consul:
+      discovery:
+        instanceId: service-a
+        health:
+          check:
+            interval: 15s
