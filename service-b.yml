@@ -4,7 +4,7 @@ spring:
   cloud:
     consul:
       discovery:
-        instanceId: service-b2
+        instanceId: service-b
         health:
           check:
             interval: 15s
